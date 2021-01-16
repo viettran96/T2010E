@@ -1,0 +1,174 @@
+
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+    height: 550px;
+}
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -250%;
+    }
+    90%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+.categories{
+    margin: 70px 0;
+    padding-bottom: 250px;
+}
+.row1{
+    width: 1080px;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+.bloc{
+    flex-basis: 30%;
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+.bloc img{
+    width: 100%;
+    height: 300px;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555555;
+}
+.title::after{
+    content: '';
+    background: red;
+    width: 80px;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.men-watch{
+    margin: 60px 20px;
+}
+.product-list{
+    margin: 40px 0;
+    padding: 70px 0;
+    height: 550px;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: white;
+}
+.product-list:hover{
+    border: 1px #b1a9a9 solid;
+    box-shadow: 0 0 2px;
+    display: block;
+
+}
+.star{
+    padding-bottom: 10px;
+    color: red;
+}
+.product-list button{
+    text-align: center;
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    border: 1px #d7d5d5 solid;
+    transition: 0.6s;
+}
+.product-list button:hover{
+    background-color: white;
+    color: black;
+    border: 1px #cac9c9 solid;
+}
+.product-list img{
+    height: 250px;
+    width: 240px;
+    margin-bottom: 25px;
+}
+
+.featured_new{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: salmon;
+    padding: 3px 7px;
+    font-size: 13px;
+}
+.background{
+    background-color: #efeded;
+    width: 100%;
+    height: 400px;
+}
+.background h2{
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.background a{
+    text-transform: none;
+    display: block;
+    color: #6d6b6b;
+}
+.collection {
+    width: 250px;
+    height: 200px;
+    background-color: #f5efef;
+    margin-left: 250px;
+    display: block;
+    box-shadow: 1px 2px 3px;
+}
+.change img{
+    width: 250px;
+    height: 140px;
+}
+.change i {
+    float: right;
+    margin-top: -28px;
+    margin-right: 10px;
+    font-size: 15px;
+
+}
+.change p{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}

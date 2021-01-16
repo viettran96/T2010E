@@ -1,0 +1,75 @@
+.media{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.media a{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 15px;
+}
+.check-box img{
+    float:left;
+    width: 33.3%;
+    height: 400px;
+}
+.be-part-of{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    font-size: 15px;
+}
+.dangki{
+    margin-top: 60px;
+}
+#sign-up input{
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+#sign-up button{
+    padding: 10px 40px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    transition: 0.6s;
+}
+#sign-up button:hover{
+    color: black;
+    background-color: white;
+}
+.stores{
+    margin-top: 50px;
+    text-align: left;
+}
+.block{
+    margin-bottom: 50px;
+}
+.policy a{
+    color: black;
+    font-style: oblique;
+}
+.policy a:hover{
+    text-decoration: none;
+    font-style: normal;
+}
+.menu{
+    background-color: lightgray;
+    width: 102.1%;
+    font-size: 20px;
+    padding: 20px 0 10px;
+    margin-bottom: 50px;
+}
+.menu a{
+    color: black;
+}
+.copyright {
+    margin-bottom: 50px;
+
+}

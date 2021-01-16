@@ -1,0 +1,179 @@
+.big-image{
+    text-align: center;
+    padding: 14% 0 14% 42%;
+    color: white;
+    width: 100%;
+    background-image: url("image/Phần-Body-1/Luxury-Watch.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.big-image button{
+    color: black;
+    border-style: solid;
+    border-color: white;
+    font-size: 16px;
+    padding: 20px 100px;
+    background-color: whitesmoke;
+    transition: 0.6s;
+}
+.big-image button:hover{
+    background-color: transparent;
+    color: white;
+}
+.option{
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.option div{
+    width: 30%;
+    padding: 50px 0;
+    margin: 20px 1.4%;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    display: inline-block;
+}
+.option button{
+    color: black;
+    padding: 10px 60px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: white;
+    transition: 0.6s;
+}
+.first-image{
+    background-image: url("image/Phần-Body-1/Mens-Watch.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.second-image{
+    background-image: url("image/Phần-Body-1/Accessories.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.third-image{
+    background-image: url("image/Phần-Body-1/Ladies-Watch.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.first-image button:hover{
+    background-color: transparent;
+    color: white;
+}
+.second-image button:hover{
+    background-color: transparent;
+    color: white;
+}
+.third-image button:hover{
+    background-color: transparent;
+    color: white;
+}
+.body1 h1{
+    font-size: 20px;
+    color: white;
+}
+.body-1 img{
+    max-width: 100%;
+}
+.body-1{
+    margin-bottom: 100px;
+}
+.space{
+    padding: 10px;
+}
+.muangay{
+    border: 1px solid #ffffff;
+    font-size: 13px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+.muangay:hover{
+    background-color: transparent;
+    transition: 500ms;
+    color: white;
+}
+.muangay1{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.muangay2{
+    margin-top: 100px;
+    text-align: center;
+}
+.muangay3{
+    margin-top: 100px;
+    text-align: right;
+}
+.bestsell{
+    text-align: center;
+    margin-top: 40px;
+}
+.bestsell a:hover{
+    text-decoration: underline !important;
+}
+.gioithieu{
+    text-align: center;
+}
+.sanpham p{
+    font-size: 30px;
+}
+.sanpham h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.sanpham a{
+    color: black;
+    text-decoration: none;
+}
+.gioithieu p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.boxgioithieu:hover {
+    box-shadow: 0 0 1px;
+    transition: 300ms;
+    margin-top: -20px;
+    display: block;
+    margin-bottom: 30px;
+}
+.muahang{
+    background-color: #222222;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px;
+    display: none;
+}
+.boxgioithieu{
+    padding: 5px;
+}
+.muahang:hover {
+    background-color: white;
+    transition: 300ms;
+    color: #222222;
+    border-style: solid;
+    border-color: black;
+}
+.tenhang{
+    font-size: 15px;
+    font-weight: 500;
+}
+.gia{
+    font-weight: bold;
+    text-decoration:line-through;
+}
+.tensanpham{
+    font-size: 5px;
+}
+.boxgioithieu:hover .muahang{
+    display: block;
+}
+.borderbox{
+    padding: 0px;
+    margin: 0px;
+}

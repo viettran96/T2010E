@@ -1,0 +1,51 @@
+.filters{
+    padding: 240px 15% 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-image: url("image/Mens-Watches/Mens-Watch.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.explore{
+    font-size: 20px;
+    margin-top: 200px;
+}
+.men-watch{
+    margin: 60px 20px;
+}
+.product-list{
+    margin: 40px 0;
+    padding: 70px 0;
+    height: 600px;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: white;
+}
+.product-list:hover{
+    border: 1px black solid;
+    box-shadow: 0 0 2px;
+    display: block;
+}
+.product-list button{
+    text-align: center;
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+    transition: 0.6s;
+}
+.product-list button:hover{
+    background-color: white;
+    color: black;
+    border: 1px black solid;
+}
+.product-list img{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 25px;
+
+}

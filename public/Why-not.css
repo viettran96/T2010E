@@ -1,0 +1,18 @@
+.why-not{
+    text-align: center;
+    padding: 180px 15%;
+    margin-bottom: 500px;
+    color: white;
+    width: 100%;
+    background-image: url("image/Why-Not/Why_Not.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.why-not h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 140px;
+}
+.why-not p{
+    font-size: 20px;
+}

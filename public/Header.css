@@ -1,0 +1,172 @@
+#my-header{
+    top: 0;
+    display: block;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 0.5px solid black;
+}
+.head{
+    float: left;
+}
+.box{
+    float: left;
+    padding: 55px 0;
+    max-height: 130px;
+    font-size: 18px;
+    width: 10%;
+}
+.box a{
+    color: black;
+    cursor: pointer;
+}
+.box a:hover{
+    text-decoration: none;
+}
+.boxes{
+    padding: 60px 0 60px 60px;
+    top: 130px;
+    display: none;
+    position: absolute;
+    width: 100% !important;
+    left: 0;
+    text-align: left;
+    background-color: white;
+    z-index: 9;
+    border: 0.5px solid black;
+    transition: all 0.6s ease;
+}
+.boxes hr{
+    border-color: black;
+    width: 16%;
+    margin-left: -10px;
+}
+.boxes a{
+    top: 20px;
+}
+.top-logo{
+    width: 40%;
+}
+.first-box:hover .box-one{
+    display: block;
+}
+.second-box:hover .box-two{
+    display: block;
+}
+.third-box:hover .box-three{
+    display: block;
+}
+.fourth-box:hover .box-four{
+    display: block;
+}
+.sixth-box:hover .box-six{
+    display: block;
+}
+.sixth-box input{
+    padding: 5px;
+    font-size: 25px;
+}
+.sixth-box button{
+    margin-left: 10px;
+    padding: 3px 20px;
+    font-size: 30px;
+    background-color: white;
+    border: 1px solid black;
+}
+.sixth-box button:hover{
+    background-color: whitesmoke;
+}
+.pics{
+    float: left;
+    text-align: center;
+    padding: 80px 7.5%;
+    margin: 0 0.8%;
+}
+.pics h1{
+    margin-bottom: 20px;
+    color: white;
+}
+.pics button{
+    border-style: solid;
+    border-color: white;
+    background-color: whitesmoke;
+    padding: 10px 40px;
+    transition: 0.6s;
+}
+.first-pics{
+    background-image: url("image/Phần-Header-Footer/Why_Not.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first-pics button:hover{
+    background-color: transparent;
+    color: white;
+}
+.second-pics{
+    background-image: url("image/Phần-Header-Footer/About-us.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-pics button:hover{
+    background-color: transparent;
+    color: white;
+}
+.third-pics{
+    background-image: url("image/Phần-Header-Footer/A-Guide-To.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third-pics button:hover{
+    background-color: transparent;
+    color: white;
+}
+@media screen and (max-width: 700px) {
+    .box{
+        display: none;
+    }
+    .top-logo{
+        width: 100%;
+    }
+    #small-screen{
+        display: block !important;
+    }
+}
+#small-screen{
+    display: none;
+}
+#main-bar button{
+    float: left;
+    padding: 40px;
+    background-color: white;
+    border: none;
+    font-size: 35px;
+    position: absolute;
+    top: 0;
+}
+#side-bar{
+    height: 100% !important;
+    width: 0;
+    z-index: 2 !important;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.6s;
+    position: fixed;
+    background-color: whitesmoke;
+}
+#side-bar a{
+    margin-top: 20px;
+    margin-left: 15%;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+}
+#side-bar button{
+    padding: 23px 33px;
+    font-size: 60px;
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+}

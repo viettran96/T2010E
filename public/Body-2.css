@@ -1,0 +1,66 @@
+.body-2 img{
+    max-width: 100%;
+}
+.IMG{
+    display: block;
+}
+.IMG img{
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+.our-product{
+    float: left;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    width: 50%;
+    display: block;
+}
+.our-product h1{
+    padding-left: -30px;
+}
+.product-box{
+    float: left;
+    padding-left: 30px;
+    margin: 30px;
+    border-left: 1px solid #1f1e1e;
+}
+.product-box button{
+    color: #777676;
+    width:255px;
+    height:50px;
+    display: block;
+    transition: all 0.1ms ;
+    background: #ffffff;
+    margin: 15px;
+    border-style: none;
+}
+.product-box button:hover{
+    background: #373737;
+    color: #f5f1f1;
+    top: -100px;
+}
+.our-story{
+    padding: 100px 0 10px;
+    text-align: center;
+    display: block;
+}
+.max-img{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 300px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#wp-slider{
+    display: block;
+}
+#wp-slider img{
+    height: 400px;
+}
+.be-part-of i{
+    padding-right: 5px;
+}
+

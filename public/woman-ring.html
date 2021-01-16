@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Woman Ring</title>
+    <link rel="stylesheet" href="Libs/bootstrap3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="Libs/Font%20Awesome/css/all.css">
+    <link rel="stylesheet" href="CSS/Header.css">
+    <link rel="stylesheet" href="CSS/Footer.css">
+    <link rel="stylesheet" href="CSS/Women-ring.css">
+</head>
+<body>
+<header id="my-header"> <!-- Copy Header -->
+    <section class="container-fluid text-center" id="big-screen">
+        <div class="first-box box head">
+            <a>Đồng Hồ</a>
+            <div class="boxes box-one">
+                <p><b>KHÁM PHÁ</b></p>
+                <hr>
+                <a href="Mens-Watches.html">ĐỒNG HỒ NAM</a>
+                <br>
+                <a href="#">ĐỒNG HỒ NỮ</a>
+                <br>
+                <a href="#">DÂY ĐỒNG HỒ</a>
+                <br>
+                <a style="color: red" href="#">ON SALE</a>
+            </div>
+        </div>
+        <div class="second-box box head">
+            <a>Phụ Kiện</a>
+            <div class="boxes box-two">
+                <p><b>KHÁM PHÁ</b></p>
+                <hr>
+                <a href="#">PHỤ KIỆN NỮ</a>
+                <br>
+                <a href="#">PHỤ KIỆN NAM</a>
+            </div>
+        </div>
+        <div class="third-box box head">
+            <a>Thương Hiệu</a>
+            <div class="boxes box-three">
+                <div class="pics first-pics">
+                    <h1>Why not?</h1>
+                    <a href="Why-not.html"><button>KHÁM PHÁ BLOG</button></a>
+                </div>
+                <div class="pics second-pics">
+                    <h1>About us</h1>
+                    <a href="About-Us.html"><button>VỀ CHUNG TÔI</button></a>
+                </div>
+                <div class="pics third-pics">
+                    <h1>A Guide To</h1>
+                    <a href="A-Guide-To.html"><button>TÌM HIỂU THÊM</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="top-logo head">
+            <a href="home.html"><img src="Image/Phần-Header-Footer/Logo.jpg" height="130" width="130"/></a>
+        </div>
+        <div class="fourth-box box head">
+            <a>Tài Khoản</a>
+            <div class="boxes box-four">
+                <a href="#">ĐĂNG NHẬP</a>
+                <hr>
+                <a href="#">ĐĂNG KÍ</a>
+            </div>
+        </div>
+        <div class="fifth-box box head">
+            <a>Giỏ Hàng<i class="fas fa-shopping-cart"></i></a>
+            <div class="boxes box-five">
+            </div>
+        </div>
+        <div class="sixth-box box head">
+            <a><i class="fas fa-search"></i></a>
+            <div class="boxes box-six">
+                <label>
+                    <input name="search" type="text" placeholder="Tìm Kiếm" required>
+                    <button type="submit" onclick="search()"><a href="#"><i class="fas fa-search"></i></a>
+                    </button>
+                </label>
+                <script type="text/javascript">
+                    function search() {
+                        alert("Sản phẩm bạn tìm kiếm hiện hết hàng")
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid" id="small-screen">
+        <div id="main-bar">
+            <button id="open" onclick="openBar()"><i class="fas fa-bars"></i></button>
+        </div>
+        <div id="side-bar">
+            <button id="close" onclick="closeBar()"><i class="fas fa-window-close"></i></button>
+            <a href="Mens-Watches.html">ĐỒNG HỒ NAM</a>
+            <a href="#">ĐỒNG HỒ NỮ</a>
+            <a href="#">DÂY ĐỒNG HỒ</a>
+            <a href="#">PHỤ KIỆN</a>
+            <a href="About-Us.html">THƯƠNG HIỆU</a>
+        </div>
+        <script type="text/javascript">
+            function openBar() {
+                document.getElementById("side-bar").style.width = "250px";
+                document.getElementById("main-bar").style.width = "0"
+            }
+            function closeBar() {
+                document.getElementById("side-bar").style.width = "0"
+                document.getElementById("main-bar").style.width = "100%"
+            }
+        </script>
+    </section>
+    <script type="text/javascript">
+        window.onscroll = function() {
+            headerScroll()
+        }
+        var a = document.getElementById("my-header");
+        var b = header.offsetTop;
+        function headerScroll() {
+            header.classList.add("b");
+        }
+    </script>
+</header> <!-- Copy Header -->
+
+
+<!-----Nhan NU----->
+<section >
+<!--    <div class="slice">-->
+<!--        <div class="left">-->
+<!--            <h2>NHẪN KIM CƯƠNG</h2>-->
+<!--            <p>Bộ sưu tập Nhẫn kim cương của Curnon được sản xuất và thiết kế tại Việt Nam, mang đến vẻ đẹp tự tin, tỏa sáng cho những cô gái hiện đại.</p>-->
+<!--           <button class="btn">BROWSE</button>-->
+<!--        </div>-->
+<!--    </div>-->
+
+    <div class="product">
+            <p>8 of 8 products</p>
+    </div>
+
+
+    <div class="container ">
+        <div class="row woman-watch">
+            <div class="layer1 col-md-3 col-sm-6 col-xs-12">
+                  <img src="Image/woman-ring/nhannu1.jpg" />
+                  <p class="ten">Nhẫn kim cương</p>
+                  <p class="mau_sac">Bạch kim</p>
+                  <p class="money">37.530.540 ₫</p>
+                  <a href="#"><button style="text-transform: uppercase">mua ngay</button></a>
+            </div>
+
+            <div class="layer1 col-md-3 col-sm-6 col-xs-12">
+                <img src="Image/woman-ring/DARA-925-Silver-Dolphin-ring-Silver-Ring.jpg" />
+                <p class="ten">Nhẫn bạc đính kim cương</p>
+                <p class="mau_sac">Bạc</p>
+                <p class="money">37.530.540 ₫</p>
+                <a href="#"><button style="text-transform: uppercase">mua ngay</button></a>
+            </div>
+
+            <div class="layer1 col-md-3 col-sm-6 col-xs-12">
+                <img src="Image/woman-ring/nhannu4.jpg" />
+                <p class="ten">Nhẫn kim cương</p>
+                <p class="mau_sac">Bạch kim</p>
+                <p class="money">37.530.540 ₫</p>
+                <a href="#"><button style="text-transform: uppercase">mua ngay</button></a>
+            </div>
+
+            <div class="layer1 col-md-3 col-sm-6 col-xs-12">
+                <img src="Image/woman-ring/nhannu6.jpg" />
+                <p class="ten">Nhẫn ngọc bích</p>
+                <p class="mau_sac">Bạc</p>
+                <p class="money">37.530.540 ₫</p>
+                <a href="#"><button style="text-transform: uppercase">mua ngay</button></a>
+            </div>
+
+        <div class="layer1 col-md-3 col-sm-6 col-xs-12">
+            <img src="Image/woman-ring/nhannu1.jpg" />
+            <p class="ten">Nhẫn kim cương</p>
+            <p class="mau_sac">Bạch kim</p>
+            <p class="money">37.530.540 ₫</p>
+            <a href="#"><button style="text-transform: uppercase">mua ngay</button></a>
+        </div>
+
+        <div class="layer1 col-md-3 col-sm-6 col-xs-12">
+            <img src="Image/woman-ring/DARA-925-Silver-Dolphin-ring-Silver-Ring.jpg" />
+            <p class="ten">Nhẫn bạc đính kim cương</p>
+            <p class="mau_sac">Bạc</p>
+            <p class="money">37.530.540 ₫</p>
+            <a href="#"><button style="text-transform: uppercase">mua ngay</button></a>
+        </div>
+
+        <div class="layer1 col-md-3 col-sm-6 col-xs-12">
+            <img src="Image/woman-ring/nhannu4.jpg" />
+            <p class="ten">Nhẫn kim cương</p>
+            <p class="mau_sac">Bạch kim</p>
+            <p class="money">37.530.540 ₫</p>
+            <a href="#"><button style="text-transform: uppercase">mua ngay</button></a>
+        </div>
+
+        <div class="layer1 col-md-3 col-sm-6 col-xs-12">
+            <img src="Image/woman-ring/nhannu6.jpg" />
+            <p class="ten">Nhẫn ngọc bích</p>
+            <p class="mau_sac">Bạc</p>
+            <p class="money">37.530.540 ₫</p>
+            <a href="#"><button style="text-transform: uppercase">mua ngay</button></a>
+        </div>
+    </div>
+    </div>
+</section>
+
+<footer> <!---- Copy Footer ---->
+    <div class="container-fluid">
+        <div class="check-box col-sm-12 col-md-12">
+            <div class="media text-center">
+                <h2 class="text-uppercase">be part of webmaster</h2>
+                <h4>Ai nói bạn không thể lựa chọn gia đình</h4>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <h4 class="text-uppercase">#webmaster</h4>
+            </div>
+            <img src="Image/Phần-Body-2/Guarantee-box-1.jpg"/>
+            <img src="Image/Phần-Body-2/Guarantee-box-2.jpg"/>
+            <img src="Image/Phần-Body-2/Guarantee-box-3.jpg"/>
+        </div>
+    </div>
+    <div class="container be-part-of">
+        <div class="guarantee-box col-sm-12 col-md-4">
+            <p><i class="fas fa-shield-alt"></i>BẢO HÀNH 10 NĂM LỖI SẢN XUẤT</p>
+        </div>
+        <div class="guarantee-box col-sm-12 col-md-4">
+            <p><i class="fas fa-truck"></i>FREESHIP ĐƠN HÀNG TRÊN 500.000 VNĐ</p>
+        </div>
+        <div class="guarantee-box col-sm-12 col-md-4">
+            <p><i class="fas fa-certificate"></i>CAM KẾT 100% HÀNG CHÍNH HÃNG</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="dangki text-center row">
+            <div id="sign-up">
+                <h3 class="text-uppercase">đăng kí nhận tin mới</h3>
+                <p id="sign-up-1">Nhận các tin tức về chương trình và khuyến mãi sớm nhất</p>
+                <label>
+                    <input class="col-sm-6 col-md-4" type="text" placeholder="Họ tên">
+                    <input class="col-sm-6 col-md-4" type="email" placeholder="Email">
+                    <button class="col-sm-12 col-md-4">Đăng kí</button>
+                </label>
+            </div>
+            <div class="stores">
+                <div class="block policy col-sm-12 col-md-4">
+                    <h4 class="text-muted">CHÍNH SÁCH </h4>
+                    <br>
+                    <p><a href="#">Chính sách vận chuyển</a></p>
+                    <p><a href="#">Chính sách đổi trả</a></p>
+                    <p><a href="#">Chính sách bảo hành</a></p>
+                </div>
+                <div class="block col-sm-12 col-md-4">
+                    <h4 class="text-muted">HA NOI STORES</h4>
+                    <br>
+                    <p>Store 1: 33 Hàm Long,Hoàn Kiếm,Hà Nội</p>
+                    <p>Store 2: 9 B7 Phạm Ngọc Thạch,Đống Đa,Hà Nội</p>
+                    <p>Store 3: 173C Kim Mã,Ba Đình,Hà Nội</p>
+                </div>
+                <div class="block col-sm-12 col-md-4">
+                    <h4 class="text-muted">TP.HCM STORES</h4>
+                    <br>
+                    <p>Store 4: 25 Nguyễn Trãi,P.Bến Thành,Quận 1,TPHCM.</p>
+                    <p>Store 5: Lầu 2,63 Hồ Tùng Mậu,Quận 1,TPHCM.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="menu row text-center">
+            <p class="col-md-2"><a href="Mens-Watches.html">ĐỒNG HỒ NAM </a></p>
+            <p class="col-md-2"><a href="">ĐỒNG HỒ NỮ </a></p>
+            <p class="col-md-2"><a href="#">PHỤ KIỆN </a></p>
+            <p class="col-md-1"><a href="About-Us.html">BLOG </a></p>
+            <p class="col-md-3"><a href="#">CHÍNH SÁCH CỦA CHÚNG TÔI </a></p>
+            <p class="col-md-2"><a href="#">TUYỂN DỤNG</a></p>
+        </div>
+    </div>
+    <div class="container copyright">
+        <div class="col-sm-6 col-md-6">
+            <h5>© 2019 - Bản quyền của CTCP PHÁT TRIỂN SẢN PHẨM SÁNG TẠO VIỆT</h5>
+            <p>Giấy chứng nhận ĐKKD số 0108150321 do Sở Kế hoạch và Đầu tư Thành phố Hà Nội cấp
+                ngày <br/>29/01/2018 123C Thụy Khuê, Tây Hồ, Hà Nội</p>
+        </div>
+        <div class="col-sm-6 col-md-6">
+            <img class="col-sm-3" src="Image/Phần-Header-Footer/Momo.png"/>
+            <img class="col-sm-3" src="Image/Phần-Header-Footer/VNPay.png"/>
+            <img class="col-sm-6" src="Image/Phần-Header-Footer/Bo-Cong-Thuong.png"/>
+        </div>
+    </div>
+</footer> <!---- Copy Footer ---->
+
+</body>
+</html>
